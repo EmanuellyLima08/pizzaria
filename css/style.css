@@ -183,11 +183,11 @@ header {
   padding: 36px 0;
 }
 
-#Cardapio div img{
+#Cardapio div img {
   padding: 0;
 }
 
-#Cardapio h2{
+#Cardapio h2 {
   color: #d03012;
   text-transform: uppercase;
   font-size: 28px;
@@ -195,7 +195,7 @@ header {
   margin: 0 0 7px 0;
 }
 
-.btnCardapio{
+.btnCardapio {
   text-decoration: none;
   color: #fff;
   background: #8daa3e;
@@ -204,7 +204,7 @@ header {
   border-bottom: 2px solid #6b7552;
 }
 
-#PromoPizzas{
+#PromoPizzas {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -214,14 +214,24 @@ header {
   padding-top: 20px;
 }
 
-
-/* #Cardapio div{
-  width: 100%;
+#Delivery {
+  max-height: 270px;
+  background: #ebe7db;
+  margin: 50px 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  text-align: center;
 }
 
-#Cardapio div img{
-  height: 100%;
+#Delivery h1 {
+  text-transform: uppercase;
+  color: #bf0a26;
+  font-weight: 900;
+}
 
-} */
+#Delivery .sec-menu {
+  justify-content: center;
+  padding: 40px;
+}
