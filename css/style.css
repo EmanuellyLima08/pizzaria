@@ -110,7 +110,7 @@ header {
 }
 
 #btnZap {
-  background: #e7a200;
+  background: #933323;
   border-radius: 65px;
   padding: 0px 15px;
   font-size: 20px;
@@ -194,7 +194,7 @@ header {
 }
 
 #Cardapio h2 {
-  color: #d03012;
+  color: #933323;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 900;
@@ -204,7 +204,7 @@ header {
 .btnCardapio {
   text-decoration: none;
   color: #fff;
-  background: #8daa3e;
+  background: #e7a200;
   padding: 10px 20px;
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
@@ -233,7 +233,7 @@ header {
 
 #Delivery h1 {
   text-transform: uppercase;
-  color: #bf0a26;
+  color: #933323;
   font-weight: 900;
 }
 
@@ -323,7 +323,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #933323;
   min-height: 400px;
   margin-top: -281px;
   color: #fff;
