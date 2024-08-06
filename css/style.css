@@ -13,8 +13,10 @@ body {
   /* overflow: hidden -> não aparecer a barra para rolar a tela (scroll) */
 }
 
-.bgfundo {
-  background: url(https://placehold.co/1920x1080) no-repeat center/cover;
+.bgfundo { 
+  background: url(../img/bgFundoPizza.jpg) no-repeat center/cover;
+
+  /* url(https://placehold.co/1920x1080) no-repeat center/cover; */
   /* 
     background-color: blue;
     background-image: url(https://placehold.co/1920x1080);
@@ -130,9 +132,7 @@ header {
   right: 0;
   top: 200px;
   z-index: 10;
-  box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -webkit-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
-  -moz-box-shadow: -10px 10px 10px 0px rgba(0, 0, 0, 0.75);
+  filter: drop-shadow(-2px 4px 6px black);
 }
 
 #BoasVindas {
@@ -146,6 +146,9 @@ header {
 
 #BoasVindas img {
   padding: 0 100px;
+  height: 300px;
+  width: 400px;
+
 }
 
 #TextoBoasVindas {
@@ -186,6 +189,8 @@ header {
 
 #Cardapio div img {
   padding: 0;
+  height: 460px;
+  width: 460px;
 }
 
 #Cardapio h2 {
